@@ -1,227 +1,46 @@
 {
-  "airlines": [
+  "movies": [
     {
-      "id": 1,
-      "name": "Emirates",
-      "headquarters": "Dubai, UAE",
-      "fleetSize": 300,
-      "foundedYear": 1985,
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Emirates_logo.svg"
+      "id": "1",
+      "title": "Parasite",
+      "genre": "Thriller, Drama",
+      "releaseYear": 2019,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "desc": "A poor family schemes to become employed by a wealthy family and infiltrate their household.",
+      "cast": [
+        {
+          "name": "test",
+          "age": "20",
+          "country": "test"
+        }
+      ]
     },
     {
-      "id": 2,
-      "name": "Qatar Airways",
-      "headquarters": "Doha, Qatar",
-      "fleetSize": 250,
-      "foundedYear": 1993,
-      "logo": "https://crystalpng.com/wp-content/uploads/2023/09/Qatar-airways-animal-logo.png"
+      "id": "2",
+      "title": "Oldboy",
+      "genre": "Action, Mystery",
+      "releaseYear": 2003,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_FMjpg_UX1000_.jpg",
+      "desc": "After being kidnapped and imprisoned for fifteen years, a man seeks vengeance on his captors.",
+      "cast": []
     },
     {
-      "id": 3,
-      "name": "Singapore Airlines",
-      "headquarters": "Singapore",
-      "fleetSize": 150,
-      "foundedYear": 1947,
-      "logo": "https://ih1.redbubble.net/image.961875186.0724/st,small,507x507-pad,600x600,f8f8f8.jpg"
+      "id": "3",
+      "title": "Train to Busan",
+      "genre": "Horror, Action",
+      "releaseYear": 2016,
+      "poster": "https://www.monash.edu/__data/assets/image/0007/2921785/BUSANHENG1.jpg",
+      "desc": "A man and his daughter fight to survive on a train during a sudden zombie outbreak.",
+      "cast": []
     },
     {
-      "id": 4,
-      "name": "Turkish Airlines",
-      "headquarters": "Istanbul, Turkey",
-      "fleetSize": 400,
-      "foundedYear": 1933,
-      "logo": "https://companieslogo.com/img/orig/THYAO.IS-f22d40e8.png?t=1720244494"
-    },
-    {
-      "id": 5,
-      "name": "Delta Air Lines",
-      "headquarters": "Atlanta, USA",
-      "fleetSize": 900,
-      "foundedYear": 1929,
-      "logo": "https://via.placeholder.com/100?text=Delta"
-    },
-    {
-      "id": 6,
-      "name": "British Airways",
-      "headquarters": "London, UK",
-      "fleetSize": 250,
-      "foundedYear": 1974,
-      "logo": "https://via.placeholder.com/100?text=British"
-    },
-    {
-      "id": 7,
-      "name": "Air France",
-      "headquarters": "Paris, France",
-      "fleetSize": 200,
-      "foundedYear": 1933,
-      "logo": "https://via.placeholder.com/100?text=Air+France"
-    },
-    {
-      "id": 8,
-      "name": "Lufthansa",
-      "headquarters": "Cologne, Germany",
-      "fleetSize": 280,
-      "foundedYear": 1953,
-      "logo": "https://via.placeholder.com/100?text=Lufthansa"
-    },
-    {
-      "id": 9,
-      "name": "KLM",
-      "headquarters": "Amstelveen, Netherlands",
-      "fleetSize": 110,
-      "foundedYear": 1919,
-      "logo": "https://via.placeholder.com/100?text=KLM"
-    },
-    {
-      "id": 10,
-      "name": "American Airlines",
-      "headquarters": "Fort Worth, USA",
-      "fleetSize": 1000,
-      "foundedYear": 1930,
-      "logo": "https://via.placeholder.com/100?text=American"
-    },
-    {
-      "id": 11,
-      "name": "Azal",
-      "headquarters": "Baku, Azerbaijan",
-      "fleetSize": 23,
-      "foundedYear": 1992,
-      "logo": "https://via.placeholder.com/100?text=Azal"
-    },
-    {
-      "id": 12,
-      "name": "Pegasus Airlines",
-      "headquarters": "Istanbul, Turkey",
-      "fleetSize": 90,
-      "foundedYear": 1989,
-      "logo": "https://via.placeholder.com/100?text=Pegasus"
-    },
-    {
-      "id": 13,
-      "name": "WizzAir",
-      "headquarters": "Budapest, Hungary",
-      "fleetSize": 180,
-      "foundedYear": 2003,
-      "logo": "https://via.placeholder.com/100?text=WizzAir"
-    }
-  ],
-  "flights": [
-    {
-      "id": 1,
-      "airlineId": 1,
-      "destination": "New York",
-      "duration": "14h",
-      "price": 1200,
-      "rating": 4.8,
-      "image": "https://via.placeholder.com/100?text=NYC"
-    },
-    {
-      "id": 2,
-      "airlineId": 2,
-      "destination": "London",
-      "duration": "7h",
-      "price": 900,
-      "rating": 4.7,
-      "image": "https://via.placeholder.com/100?text=London"
-    },
-    {
-      "id": 3,
-      "airlineId": 3,
-      "destination": "Sydney",
-      "duration": "22h",
-      "price": 2000,
-      "rating": 4.9,
-      "image": "https://via.placeholder.com/100?text=Sydney"
-    },
-    {
-      "id": 4,
-      "airlineId": 4,
-      "destination": "Tokyo",
-      "duration": "12h",
-      "price": 1400,
-      "rating": 4.6,
-      "image": "https://via.placeholder.com/100?text=Tokyo"
-    },
-    {
-      "id": 5,
-      "airlineId": 5,
-      "destination": "Paris",
-      "duration": "8h",
-      "price": 1000,
-      "rating": 4.7,
-      "image": "https://via.placeholder.com/100?text=Paris"
-    },
-    {
-      "id": 6,
-      "airlineId": 6,
-      "destination": "Dubai",
-      "duration": "6h",
-      "price": 800,
-      "rating": 4.8,
-      "image": "https://via.placeholder.com/100?text=Dubai"
-    },
-    {
-      "id": 7,
-      "airlineId": 7,
-      "destination": "Rome",
-      "duration": "9h",
-      "price": 950,
-      "rating": 4.5,
-      "image": "https://via.placeholder.com/100?text=Rome"
-    },
-    {
-      "id": 8,
-      "airlineId": 8,
-      "destination": "Berlin",
-      "duration": "2h",
-      "price": 300,
-      "rating": 4.6,
-      "image": "https://via.placeholder.com/100?text=Berlin"
-    },
-    {
-      "id": 9,
-      "airlineId": 9,
-      "destination": "Amsterdam",
-      "duration": "1h",
-      "price": 150,
-      "rating": 4.7,
-      "image": "https://via.placeholder.com/100?text=Amsterdam"
-    },
-    {
-      "id": 10,
-      "airlineId": 10,
-      "destination": "Los Angeles",
-      "duration": "16h",
-      "price": 1300,
-      "rating": 4.9,
-      "image": "https://via.placeholder.com/100?text=LA"
-    },
-    {
-      "id": 11,
-      "airlineId": 11,
-      "destination": "Istanbul",
-      "duration": "2h",
-      "price": 200,
-      "rating": 4.3,
-      "image": "https://via.placeholder.com/100?text=Istanbul"
-    },
-    {
-      "id": 12,
-      "airlineId": 12,
-      "destination": "Berlin",
-      "duration": "3h",
-      "price": 250,
-      "rating": 4.5,
-      "image": "https://via.placeholder.com/100?text=Berlin"
-    },
-    {
-      "id": 13,
-      "airlineId": 13,
-      "destination": "Vienna",
-      "duration": "1.5h",
-      "price": 100,
-      "rating": 4.1,
-      "image": "https://via.placeholder.com/100?text=Vienna"
+      "id": "4",
+      "title": "The Handmaiden",
+      "genre": "Drama, Romance",
+      "releaseYear": 2016,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTllZDI1OGItOGUxNS00OGZhLWIzMjAtYzllZTY1YTA0ZmYwXkEyXkFqcGc@._V1_.jpg",
+      "desc": "A woman is hired as a handmaiden to a Japanese heiress but is part of a bigger con.",
+      "cast": []
     }
   ]
 }
